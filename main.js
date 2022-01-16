@@ -1,5 +1,5 @@
 // Lazy loading
-$( document ).ready(function() {
+$(function() {
    [].forEach.call(document.querySelectorAll('img[data-src]'), function(img) {
          img.setAttribute('src', img.getAttribute('data-src'));
          img.onload = function() {
