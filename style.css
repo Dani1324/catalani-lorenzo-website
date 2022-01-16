@@ -1,6 +1,5 @@
 /* ! General style of the website */
 html{ overflow-x:hidden;}
-
 body{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
@@ -14,8 +13,8 @@ a{ text-decoration: none; color: #434B4D; cursor: pointer;}
 img{ opacity: 1; transition: opacity 0.5s;}
 img[data-src] { opacity: 0;}
 
-@font-face { font-family: Bebas Neue Pro; font-weight: Bold; src: url('fonts/Bebas Neue Pro Bold.otf');}
-@font-face { font-family: Bebas Neue Pro; font-weight: 400; src: url('fonts/Bebas Neue Pro Regular.otf');}
+@font-face { font-family: Bebas Neue Pro; font-weight: Bold; src: url('fonts/Bebas Neue Pro Bold.otf'); font-display: swap;}
+@font-face { font-family: Bebas Neue Pro; font-weight: 400; src: url('fonts/Bebas Neue Pro Regular.otf'); font-display: swap;}
 
 
 /* ! Hero */
@@ -793,4 +792,178 @@ img[data-src] { opacity: 0;}
 
   .footer-ending h4{ font-size: 10px;}
 }
-@media (max-width: 390px)
+@media (max-width: 390px) {
+
+  .hero{ height: 70vh;}
+
+  /* ! Hero - header */
+  .header{
+    width: 88vw;
+    margin: 2vh 6vw;
+  }
+
+  /* ! hero adjustment */
+  .presentation-image{ width: 96vw; margin: 14vh 2vw 0vh 2vw;}
+  .presentation-image h1{ padding: 0 8vw; top: 23.7vw; font-size: 17px; width: 80vw;}
+  .presentation-image h2{ padding: 0 9vw; top: 29.5vw; font-size: 17px; width: 78vw;}
+  .presentation-image p{ padding: 0 10vw; top: 43.5vw; font-size: 9px; width: 76vw;}
+  .header img{ height: 28px; width: auto; transition: opacity 1s;}
+
+  .main-title h1{
+    text-shadow: -0.1px 0 #434B4D, 0 0.1px #434B4D, 0.1px 0 #434B4D, 0 -0.1px #434B4D;
+    font-size: 19px;
+    letter-spacing: 1.4px;
+    padding-left: 50px;
+  }
+
+  .main-title h2{
+    font-size: 8.5px;
+    letter-spacing: 1.2px;
+    padding-left: 50px;
+  }
+
+  /* ! Button */
+  .button{
+    height: 22px;
+    width: 60px;
+    margin: 2px 0px;
+  }
+
+  .button a p{
+    padding: 7px 1px 5.8px 0;
+    font-size: 10px;
+  }
+
+  /* ! Presentation image */
+  .mobile-hero-bg{ display: none;}
+  .mobile-hero-bg2{ display: block;}
+  .hero-bg{ display: none;}
+
+  /* ! Partners */
+  .partners{ width: 84vw; margin: 112vw 8vw 20vh 8vw;}
+  .partners h2{ width: 100%; font-size: 9px; letter-spacing: 1px;}
+
+  .partners__photos{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .partners__photos img{
+    width: 13vw;
+    margin: 0 1.9vw;
+  }
+
+  /* ! Certifications */
+  .certifications{
+    width: 84vw;
+    margin: -10vh 8vw 10vh 8vw;
+  }
+
+  .main-title{
+    font-size: 20px;
+    letter-spacing: 0.4px;
+    margin-bottom: 2.5vh;
+  }
+
+  .certifications p{
+    font-size: 10px;
+    margin: -1vh 10% 0 10%;
+    line-height: 1.3;
+  }
+
+  .certificate-1{
+    display: block;
+    margin: 10vh 0 14vh 0;
+    width: 100%;
+  }
+
+  .certificate-1 img{
+    width: 30vw;
+    height: 30vw;
+    padding: 0 27vw;
+  }
+
+  .certificate-2{
+    display: block;
+    padding-top: 10vh;
+    margin: 0vh 0 14vh 0;
+    width: 100%;
+    border-top: 1px solid #B4B4B5;
+  }
+
+  .certificate-2 img{
+    width: 34vw;
+    height: 34vw;
+    padding: 0 25vw;
+  }
+
+  .certificate-texts{ width: 70%; padding: 0 15%; margin-top: 10vh;}
+
+  .certificate-texts h3{
+    text-align: center;
+    font-size: 22px;
+    padding-left: 0vw;
+  }
+
+  .certificate-texts p{
+    text-align: center;
+    font-size: 14px;
+    padding-left: 0vw;
+    margin: 3vh 0;
+  }
+
+  /* ! Old works */
+  .works{
+    width: 100vw;
+    margin-bottom: 10vw;
+  }
+
+  .works h1{ width: 76vw; margin: 20vh 12vw 10vh 12vw;}
+
+  .scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+    width: 90vw;
+    margin-left: 10vw;
+    padding: 20px 0;
+  }
+
+  .scrollmenu .card{
+    display: inline-block;
+    box-shadow: 0px 8px 20px 0px rgba(239, 234, 234, 0.5);
+    margin: 0px 3px 10px 15px;
+    background-color: #FEFFFF;
+    width: 28vw;
+    height: 28vw;
+  }
+
+  .card img{ width: 100%;}
+
+  /* ! Footer */
+  .footer{
+    width: 84vw;
+    padding: 4vh 8vw 0vh 8vw;
+  }
+
+  .footer-blocks img{
+    height: 5vw;
+    margin-bottom: 30px;
+  }
+
+  .footer-blocks p{
+    margin: 0 0 1.5vh 2vw;
+    font-size: 10px;
+  }
+
+  #footer-info-title{ width: 100%; margin-left: 2vw;}
+
+  #footer-info-title h1{
+    color: #707778;
+    font-size: 15px;
+    margin-top: 2vw;
+    margin-bottom: 30px;
+  }
+
+  .footer-ending h4{ font-size: 10px;}
+}
