@@ -367,7 +367,7 @@ img[data-src] { opacity: 0;}
   }
 
   .button a p{
-    padding: 13px 0 12px 0;
+    padding: 13px 0 10px 0;
     font-size: 17px;
   }
 
@@ -407,7 +407,7 @@ img[data-src] { opacity: 0;}
   }
 
   .button a p{
-    padding: 13px 0 12px 0;
+    padding: 13px 0 10px 0;
     font-size: 17px;
   }
 
@@ -461,7 +461,7 @@ img[data-src] { opacity: 0;}
   }
 
   .button a p{
-    padding: 12px 0 9px 0;
+    padding: 12px 0 9px 0px;
     font-size: 15px;
   }
 
@@ -521,7 +521,7 @@ img[data-src] { opacity: 0;}
   }
 
   .button a p{
-    padding: 11px 0 10px 0;
+    padding: 11px 0 7px 0;
     font-size: 16px;
   }
 
@@ -831,7 +831,7 @@ img[data-src] { opacity: 0;}
   }
 
   .button a p{
-    padding: 7.5px 1px 3.3px 0;
+    padding: 7.5px 1px 6px 0;
     font-size: 12px;
   }
 
