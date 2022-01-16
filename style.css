@@ -19,7 +19,7 @@ img[data-src] { opacity: 0;}
 
 
 /* ! Hero */
-.hero{ position: absolute; top: 0; width: 100vw; height: 100vh;}
+.hero{ position: absolute; top: 0; width: 100vw; height: 100vh; overflow-x: hidden;}
 .hero img{ position: absolute; width: 100vw; top: 0; left: 0; z-index: -1;}
 
 
@@ -141,6 +141,7 @@ img[data-src] { opacity: 0;}
 .partners{
   width: 76vw;
   margin: 59vw 12vw 20vh 12vw;
+  overflow-x: hidden;
 }
 
 .partners h2{
@@ -167,6 +168,7 @@ img[data-src] { opacity: 0;}
 .certifications{
   width: 76vw;
   margin: 0vh 12vw 10vh 12vw;
+  overflow-x: hidden;
 }
 
 .main-title{ font-size: 40px;}
@@ -232,6 +234,7 @@ img[data-src] { opacity: 0;}
 .works{
   width: 100vw;
   margin-bottom: 10vw;
+  overflow-x: hidden;
 }
 
 .works h1{ width: 76vw; margin: 20vh 12vw; padding-bottom: 0.7vh;}
@@ -261,6 +264,7 @@ img[data-src] { opacity: 0;}
   background-color: #F9FAFC;
   width: 76vw;
   padding: 4vh 12vw 0vh 12vw;
+  overflow-x: hidden;
 }
 
 .footer-blocks{
