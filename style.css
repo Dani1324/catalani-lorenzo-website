@@ -233,7 +233,7 @@ img[data-src] { opacity: 0;}
   margin-bottom: 10vw;
 }
 
-.works h1{ width: 76vw; margin: 20vh 12vw;}
+.works h1{ width: 76vw; margin: 20vh 12vw; padding-bottom: 0.7vh;}
 
 .scrollmenu{
   overflow: auto;
@@ -302,7 +302,8 @@ img[data-src] { opacity: 0;}
   color: #9DA1A3;
   text-align: center;
   font-size: 13px;
-  margin: 3vh 0 5vh 0;
+  margin: 3vh 0 0vh 0;
+  padding-bottom: 5vh;
 }
 
 /* ! Website devices optimization */
@@ -759,8 +760,8 @@ img[data-src] { opacity: 0;}
     box-shadow: 0px 8px 20px 0px rgba(239, 234, 234, 0.5);
     margin: 0px 3px 10px 15px;
     background-color: #FEFFFF;
-    width: 28vw;
-    height: 28vw;
+    width: 35vw;
+    height: 35vw;
   }
 
   .card img{ width: 100%;}
@@ -793,6 +794,181 @@ img[data-src] { opacity: 0;}
   .footer-ending h4{ font-size: 10px;}
 }
 @media (max-width: 390px) {
+
+  .hero{ height: 70vh;}
+
+  /* ! Hero - header */
+  .header{
+    width: 88vw;
+    margin: 2vh 6vw;
+  }
+
+  /* ! hero adjustment */
+  .presentation-image{ width: 96vw; margin: 14vh 2vw 0vh 2vw;}
+  .presentation-image h1{ padding: 0 8vw; top: 23.7vw; font-size: 19.5px; width: 80vw;}
+  .presentation-image h2{ padding: 0 9vw; top: 29.5vw; font-size: 19.5px; width: 78vw;}
+  .presentation-image p{ padding: 0 10vw; top: 45.5vw; font-size: 11px; width: 76vw;}
+  .header img{ height: 32px; width: auto; transition: opacity 1s;}
+
+  .main-title h1{
+    text-shadow: -0.1px 0 #434B4D, 0 0.1px #434B4D, 0.1px 0 #434B4D, 0 -0.1px #434B4D;
+    font-size: 22px;
+    letter-spacing: 1.4px;
+    padding-left: 50px;
+  }
+
+  .main-title h2{
+    font-size: 9.5px;
+    letter-spacing: 1.2px;
+    padding-left: 50px;
+  }
+
+  /* ! Button */
+  .button{
+    height: 26px;
+    width: 66px;
+    margin: 2px 0px;
+  }
+
+  .button a p{
+    padding: 7.5px 1px 3.3px 0;
+    font-size: 12px;
+  }
+
+  /* ! Presentation image */
+  .mobile-hero-bg{ display: none;}
+  .mobile-hero-bg2{ display: block;}
+  .hero-bg{ display: none;}
+
+  /* ! Partners */
+  .partners{ width: 84vw; margin: 112vw 8vw 20vh 8vw;}
+  .partners h2{ width: 100%; font-size: 11px; letter-spacing: 1px;}
+
+  .partners__photos{
+    margin-top: 2vh;
+    width: 100%;
+    display: flex;
+  }
+
+  .partners__photos img{
+    width: 13vw;
+    margin: 0 1.9vw;
+  }
+
+  /* ! Certifications */
+  .certifications{
+    width: 84vw;
+    margin: -10vh 8vw 10vh 8vw;
+  }
+
+  .main-title{
+    font-size: 22px;
+    letter-spacing: 0.4px;
+    margin-bottom: 2.5vh;
+  }
+
+  .certifications p{
+    font-size: 13px;
+    margin: -1vh 0% 0 0%;
+    line-height: 1.3;
+  }
+
+  .certificate-1{
+    display: block;
+    margin: 3vh 0 6vh 0;
+    width: 100%;
+  }
+
+  .certificate-1 img{
+    width: 34vw;
+    height: 34vw;
+    padding: 0 25vw;
+  }
+
+  .certificate-2{
+    display: block;
+    padding-top: 3vh;
+    margin: 0vh 0 4vh 0;
+    width: 100%;
+    border-top: 1px solid #B4B4B5;
+  }
+
+  .certificate-2 img{
+    width: 34vw;
+    height: 34vw;
+    padding: 0 25vw;
+  }
+
+  .certificate-texts{ width: 90%; padding: 0 5%; margin-top: 3vh;}
+
+  .certificate-texts h3{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 0vw;
+  }
+
+  .certificate-texts p{
+    text-align: center;
+    font-size: 11px;
+    padding-left: 0vw;
+    margin: 3vh 0;
+  }
+
+  /* ! Old works */
+  .works{
+    width: 100vw;
+    margin-bottom: 10vw;
+  }
+
+  .works h1{ width: 80vw; margin: 10vh 10vw 4vh 10vw;}
+
+  .scrollmenu{
+    overflow: auto;
+    white-space: nowrap;
+    width: 90vw;
+    margin-left: 10vw;
+    padding: 20px 0;
+  }
+
+  .scrollmenu .card{
+    display: inline-block;
+    box-shadow: 0px 8px 20px 0px rgba(239, 234, 234, 0.5);
+    margin: 0px 3px 10px 15px;
+    background-color: #FEFFFF;
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .card img{ width: 100%;}
+
+    /* ! Footer */
+  .footer{
+    width: 84vw;
+    padding: 4vh 8vw 0vh 8vw;
+  }
+
+  .footer-blocks img{
+    height: 5vw;
+    margin-bottom: 30px;
+  }
+
+  .footer-blocks p{
+    margin: 0 0 1.5vh 2vw;
+    font-size: 9px;
+  }
+
+  #footer-info-title{ width: 100%; margin-left: 2vw;}
+
+  #footer-info-title h1{
+    color: #707778;
+    font-size: 13px;
+    margin-top: 1vw;
+    margin-bottom: 30px;
+  }
+
+  .footer-ending h4{ font-size: 9px; padding-bottom: 2.5vh;}
+}
+@media (max-width: 340px) {
 
   .hero{ height: 70vh;}
 
@@ -867,27 +1043,27 @@ img[data-src] { opacity: 0;}
   }
 
   .certifications p{
-    font-size: 10px;
-    margin: -1vh 10% 0 10%;
+    font-size: 11px;
+    margin: -1vh 0% 0 0%;
     line-height: 1.3;
   }
 
   .certificate-1{
     display: block;
-    margin: 10vh 0 14vh 0;
+    margin: 3vh 0 6vh 0;
     width: 100%;
   }
 
   .certificate-1 img{
-    width: 30vw;
-    height: 30vw;
-    padding: 0 27vw;
+    width: 34vw;
+    height: 34vw;
+    padding: 0 25vw;
   }
 
   .certificate-2{
     display: block;
-    padding-top: 10vh;
-    margin: 0vh 0 14vh 0;
+    padding-top: 3vh;
+    margin: 0vh 0 4vh 0;
     width: 100%;
     border-top: 1px solid #B4B4B5;
   }
@@ -898,17 +1074,17 @@ img[data-src] { opacity: 0;}
     padding: 0 25vw;
   }
 
-  .certificate-texts{ width: 70%; padding: 0 15%; margin-top: 10vh;}
+  .certificate-texts{ width: 90%; padding: 0 5%; margin-top: 3vh;}
 
   .certificate-texts h3{
     text-align: center;
-    font-size: 22px;
+    font-size: 17px;
     padding-left: 0vw;
   }
 
   .certificate-texts p{
     text-align: center;
-    font-size: 14px;
+    font-size: 10px;
     padding-left: 0vw;
     margin: 3vh 0;
   }
@@ -919,7 +1095,7 @@ img[data-src] { opacity: 0;}
     margin-bottom: 10vw;
   }
 
-  .works h1{ width: 76vw; margin: 20vh 12vw 10vh 12vw;}
+  .works h1{ width: 80vw; margin: 10vh 10vw 4vh 10vw;}
 
   .scrollmenu{
     overflow: auto;
@@ -953,17 +1129,17 @@ img[data-src] { opacity: 0;}
 
   .footer-blocks p{
     margin: 0 0 1.5vh 2vw;
-    font-size: 10px;
+    font-size: 9px;
   }
 
   #footer-info-title{ width: 100%; margin-left: 2vw;}
 
   #footer-info-title h1{
     color: #707778;
-    font-size: 15px;
-    margin-top: 2vw;
+    font-size: 13px;
+    margin-top: 1vw;
     margin-bottom: 30px;
   }
 
-  .footer-ending h4{ font-size: 10px;}
+  .footer-ending h4{ font-size: 9px; padding-bottom: 2.5vh;}
 }
