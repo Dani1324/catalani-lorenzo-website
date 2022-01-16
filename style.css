@@ -1,5 +1,5 @@
 /* ! General style of the website */
-html{ overflow-x:hidden; touch-action: manipulation;}
+html{ overflow-x:hidden;}
 body{
   font-family: 'Lato', sans-serif;
   font-size: 18px;
