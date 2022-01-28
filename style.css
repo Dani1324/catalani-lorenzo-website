@@ -69,8 +69,8 @@ img[data-src] { opacity: 0;}
   text-align: center;
   width: 100%;
   font-weight: 700;
-  font-size: 40px;
-  margin-bottom: 3vh;
+  font-size: 44px;
+  margin-bottom: 2vh;
   padding-bottom: 1vh;
   background: -webkit-linear-gradient(right, #BE863F, #785D39);
   -webkit-background-clip: text;
@@ -256,6 +256,7 @@ img[data-src] { opacity: 0;}
   white-space: nowrap;
   width: 88vw;
   margin-left: 12vw;
+  margin-top: 8vh;
   padding: 20px 0;
 }
 
