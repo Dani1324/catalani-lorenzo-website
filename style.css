@@ -14,8 +14,7 @@ a{ text-decoration: none; color: #434B4D; cursor: pointer;}
 img{ opacity: 1; transition: opacity 0.5s;}
 img[data-src] { opacity: 0;}
 
-@font-face { font-family: Bebas Neue Pro; font-weight: Bold; src: url('fonts/Bebas Neue Pro Bold.otf'); font-display: swap;}
-@font-face { font-family: Bebas Neue Pro; font-weight: 400; src: url('fonts/Bebas Neue Pro Regular.otf'); font-display: swap;}
+@font-face { font-family: Bebas Neue Pro; font-weight: 400; src: url('risorse/Bebas Neue Pro Regular.otf'); font-display: swap;}
 
 
 /* ! Hero */
